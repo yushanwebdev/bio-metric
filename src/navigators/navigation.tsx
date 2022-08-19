@@ -23,12 +23,6 @@ export const tabbedNavigation = () =>
   Navigation.setRoot({
     root: {
       sideMenu: {
-        left: {
-          component: {
-            name: SCREENS.Drawer,
-            id: 'drawerComponentId',
-          },
-        },
         center: {
           bottomTabs: {
             id: 'BottomTabsId',
